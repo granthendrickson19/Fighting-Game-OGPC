@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InputScript : MonoBehaviour {
 
+<<<<<<< HEAD
     public int controller_x = 0;
     public int controller_y = 0;
 
@@ -30,4 +31,15 @@ public class InputScript : MonoBehaviour {
             controller_y = -1;
         }
     }
+=======
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+>>>>>>> 1d148318817073778fb2270feebe1b943a5ec6d9
 }
