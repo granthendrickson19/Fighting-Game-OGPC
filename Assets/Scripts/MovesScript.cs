@@ -8,28 +8,28 @@ public class MovesScript : MonoBehaviour {
     
 	// Update is called once per frame
 	void Update () {
-		if (callInputScript.controller_x == 1)
+		if (callInputScript.controller_px == true)
         {
             Vector3 position = this.transform.position;
             position.x++;
             this.transform.position = position;
         }
 
-        if (callInputScript.controller_x == -1)
+        if (callInputScript.controller_nx == true)
         {
             Vector3 position = this.transform.position;
             position.x--;
             this.transform.position = position;
         }
 
-        if (callInputScript.controller_y == 1)
+        if (callInputScript.controller_py == true)
         {
             Vector3 position = this.transform.position;
             position.y++;
             this.transform.position = position;
         }
 
-        if (callInputScript.controller_y == -1)
+        if (callInputScript.controller_ny == true)
         {
             Vector3 position = this.transform.position;
             position.y--;
